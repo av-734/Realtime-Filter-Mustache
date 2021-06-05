@@ -1,0 +1,19 @@
+.heading{
+    font-size: 23px;
+    font-family: 'Special Elite', cursive;
+    letter-spacing: 3px;
+}
+
+canvas{
+    border-radius: 20px;
+    animation-name:shadow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow{
+    0%{box-shadow: 5px 5px 40px rgb(28, 155, 16);}
+    45%{box-shadow: 5px 5px 40px rgb(255, 0, 21);}
+    75%{box-shadow: 5px 5px 40px rgb(7, 18, 165);}
+    100%{box-shadow: 5px 5px 40px rgb(109, 3, 119);}
+}
